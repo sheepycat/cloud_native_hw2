@@ -1,0 +1,1 @@
+print("cloud native assignment 2")
