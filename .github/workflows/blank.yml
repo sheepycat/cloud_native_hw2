@@ -44,9 +44,9 @@ jobs:
           fi
 
       - name: Run test.py
-      run: |
-        if [ -f test.py ]; then
-          python test.py
-        else
-          echo "No test.py found"
-        fi
+        run: |
+          if [ -f test.py ]; then
+            python test.py
+          else
+            echo "No test.py found"
+          fi
