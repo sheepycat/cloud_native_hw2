@@ -1,7 +1,8 @@
 # cloud_native_hw2
 2025 spring - cloud native - assignment 2
 
-Repo link: https://github.com/sheepycat/cloud_native_hw2.git
+[Repo link](https://github.com/sheepycat/cloud_native_hw2.git)
+: https://github.com/sheepycat/cloud_native_hw2.git
 
 ### Part 1. Repo 操作
 ---
