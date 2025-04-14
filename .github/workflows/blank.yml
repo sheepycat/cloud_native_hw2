@@ -34,3 +34,19 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            echo "No requirements.txt found"
+          fi
+
+      - name: Run test.py
+        run: |
+          if [ -f test.py ]; then
+            python test.py
+          else
+            echo "No test.py found"
+          fi
